@@ -142,9 +142,9 @@ if($_SERVER['HTTP_HOST'] == 'localhost'){
               <b class="logo-icon">
                 <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                 <!-- Dark Logo icon -->
-                <img src="<?php echo $home_url; ?>/dist/libs/images/logo.jpg" alt="homepage" class="dark-logo" style="width: 55px;"/>
+                <img src="<?php echo $home_url; ?>/dist/libs/images/logo.png" alt="homepage" class="dark-logo" style="width: 55px;"/>
                 <!-- Light Logo icon -->
-                <img src="<?php echo $home_url; ?>/dist/libs/images/logo.jpg"  alt="homepage" class="light-logo" style="width: 55px;"/>
+                <img src="<?php echo $home_url; ?>/dist/libs/images/logo.png"  alt="homepage" class="light-logo" style="width: 55px;"/>
               </b>
               <!--End Logo icon -->
               <!-- Logo text -->
@@ -355,7 +355,7 @@ if($_SERVER['HTTP_HOST'] == 'localhost'){
         <!-- footer -->
         <!-- -------------------------------------------------------------- -->
         <footer class="footer text-center">
-          All Rights Reserved by Daulat Pride Pvt.
+          All Rights Reserved by Sunhari Global Life
         </footer>
         <!-- -------------------------------------------------------------- -->
         <!-- End footer -->

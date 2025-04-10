@@ -22,7 +22,7 @@
           
           
           <tr>
-            <td valign="top" style="font-family: 'Kurale', serif; font-style: italic; font-size: 18px"><img src="<?php echo $home_url;?>/frontend/img/logo.jpg" alt="" title="" width="200" /></td>
+            <td valign="top" style="font-family: 'Kurale', serif; font-style: italic; font-size: 18px"><img src="<?php echo $home_url;?>/frontend/img/logo.png" alt="" title="" width="200" /></td>
             <td colspan="2" valign="top" style="font-family: 'Lato', sans-serif; font-size: 15px; font-weight: 700; line-height: 23px; text-align: center"><h1 style="padding: 0px; margin: 0px; color: #569150; font-size: 38px; font-weight: 800;">BPR GREENLIVING PVT LTD</h1><br /><!-- Office: MCF-385, 1st Floor, Petals Plaza, Sector-29, Bypass-Road, Near PNB Bank &<br />Sharma Kanta, Old Faridabad - 121002, Haryana, Email : jsksinfratech@gmail.com --></td>
             
           </tr>
@@ -99,7 +99,7 @@
           
           
           <tr>
-            <td valign="top" style="font-family: 'Kurale', serif; font-style: italic; font-size: 18px"><img src="<?php echo $home_url;?>/frontend/img/logo.jpg" alt="" title="" width="200" /></td>
+            <td valign="top" style="font-family: 'Kurale', serif; font-style: italic; font-size: 18px"><img src="<?php echo $home_url;?>/frontend/img/logo.png" alt="" title="" width="200" /></td>
             <td colspan="2" valign="top" style="font-family: 'Lato', sans-serif; font-size: 15px; font-weight: 700; line-height: 23px; text-align: center"><h1 style="padding: 0px; margin: 0px; color: #569150; font-size: 42px; font-weight: 800;">BPR GREENLIVING</h1><br /><!-- Office: MCF-385, 1st Floor, Petals Plaza, Sector-29, Bypass-Road, Near PNB Bank &<br />Sharma Kanta, Old Faridabad - 121002, Haryana, Email : jsksinfratech@gmail.com --></td>
             
           </tr>

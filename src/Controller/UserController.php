@@ -651,7 +651,7 @@ class UserController extends AppController
 
         $usersTable = TableRegistry::get("Users");
 
-        /*if ($this->request->is("post")) {
+        if ($this->request->is("post")) {
             $userInfo = $usersTable
                 ->find("all", [
                     "conditions" => [
@@ -694,7 +694,7 @@ class UserController extends AppController
             } else {
                 $this->Flash->error(__("Wrong username or password."));
             }
-        }*/
+        }
     }
 
     public function recoverPassword()
