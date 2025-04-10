@@ -1,0 +1,2 @@
+
+<?php echo $this->Form->input($fieldName, array('type' => 'select', 'class' => $cls, 'options' => $blocks, 'label' => false, 'div' => false, 'onchange' => 'FilterPlotsByBlock(this, "plot_container", "AssignPlot.plot_id", "form-control loginbox");')); ?>

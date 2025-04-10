@@ -1,0 +1,2 @@
+
+<?php echo $this->Form->input($fieldName, array('type' => 'select', 'class' => $cls, 'options' => $sites, 'label' => false, 'div' => false, 'onchange' => 'FilterBlockBySite(this.value, "block_container", "Plot.block_id", "form-control loginbox");')); ?>

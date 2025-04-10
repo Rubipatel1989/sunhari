@@ -1,0 +1,117 @@
+.tree{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.tree li{
+    width: 100%;
+    float: left;
+    padding: 0px;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.tree li .tree-user-info{
+    float: left;
+}
+
+.tree li .tree-lines{
+    width: 50%;
+    float: left;
+    left: 25%;
+    border-top:2px solid #656565;
+    border-left:2px solid #656565;
+    border-right:2px solid #656565;
+    margin: 5px 0 0 0;
+    position: relative;
+    height: 50px;
+}
+
+.tree li .fa-user{
+    font-size: 30px;
+}
+
+.tree li .active-user{
+    color: #1C75BF;
+}
+
+.tree li .orange-user{
+    color: #f7a40d;
+}
+
+.tree li .green-user{
+    color: #47b52c;
+}
+
+.tree li .blue-user{
+    color: #0e25c5;
+}
+
+.tree li .inactive-user{
+    color: #f32929;
+}
+
+
+.left-user{
+    width: auto;
+    float: left;
+    padding: 0;
+    margin: 0 10px 0 0;
+}
+
+.right-user{
+    width: auto;
+    float: right;
+    padding: 0px;
+    margin: 0 0 0 10px;
+}
+
+.left-verticle-border{
+    border-right: 2px solid #656565;
+    position: absolute;
+    height: 48px;
+    margin-left: -4px;
+    display: inline-block;
+    margin-top: -31px;
+}
+
+.right-verticle-border{
+    border-right: 2px solid #656565;
+    position: absolute;
+    height: 48px;
+    margin-left: -4px;
+    display: inline-block;
+    margin-top: -31px;
+}
+
+.direct-lines{
+    border-top: 2px solid #656565;
+    width: 100%;
+    float: left;
+    margin: 11px 0 0 0;
+    position: relative;
+    left: 0%;
+}
+
+.direct-tree-cotainer{
+    min-width: 850px;
+    float: left;
+    overflow-x: auto;
+    padding: 0px;
+    width: 3000px;
+}
+.direct-tree-outer-cotainer{
+    overflow-x: auto;
+}
+
+.tree-outer-cotainer{
+    overflow-x: auto;
+}
+
+.tree-cotainer{
+    min-width: 850px;
+    float: left;
+    overflow-x: auto;
+    padding: 0px;
+}

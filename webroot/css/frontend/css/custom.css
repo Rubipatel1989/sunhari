@@ -1,0 +1,60 @@
+.height-70{
+	height: 70px;
+}
+label[for="user-password"]{
+	white-space: normal !important;
+}
+label[for="is_agree"]{
+	top: 33px;
+    left: -20px;
+}
+
+.message.error{
+	background-color: #cc000512;
+    border: 1px solid #CC0000;
+    color: #CC0000;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.message.success{
+	background-color: #65926138;
+    border: 1px solid #228C18;
+    color: #228C18;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.loader{
+    background-color: #000;
+    opacity: 0.8;
+    position: absolute;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+}
+
+.loader img{
+	position: absolute;
+    top: 23%;
+    left: 22%;
+}
+
+.polies-list{
+    list-style: decimal;
+}
+
+.polies-list li{
+    padding: 0 0 0 10px;
+    margin: 0 0 8px 0;
+}
+.body-loader{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+}

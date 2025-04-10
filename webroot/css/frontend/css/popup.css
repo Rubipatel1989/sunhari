@@ -1,0 +1,108 @@
+.package-popup{
+    max-width: 550px;
+    border:1px solid #1C75BF;
+    padding: 10px;
+}
+
+.package-popup .package-popup-head{
+    background-color: #1C75BF;
+}
+
+.package-popup .package-popup-head h2{
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFF;
+    padding: 7px 10px;
+    margin: 0px;
+}
+
+.grey-top-strip-1{
+    border-top: 1px dashed #CCC;
+}
+
+.grey-top-strip-2{
+    border-top: 1px solid #CCC;
+}
+
+.product-det-img-container{
+    border: 1px solid #CCC;
+    padding: 3px;
+    background-color: #efefef7d;
+    border-radius: 3px;
+}
+
+.product-name{
+    padding: 0px;
+    margin: 0px;
+    font-size: 22px;
+    line-height: 32px;
+    border-bottom: 1px solid #CCC;
+    color: #1C75BF;
+}
+
+.primary-price{
+    color: #ec1111;
+    text-decoration: line-through;
+}
+
+.final-price{
+    color: #33a010;
+}
+
+.package-currency{
+    font-size: 15px;
+    position: relative;
+    top: -7px;
+    left: -2px;
+    font-weight: bold;
+}
+
+.btn_buy{
+    background-color: #1C75BF;
+    color: #FFF;
+    padding: 7px 25px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+}
+
+.out-of-stock{
+    color: #ec1111;
+}
+
+.in-stock{
+    color: #33a010;
+}
+
+.message.error{
+    background-color: #cc000512;
+    border: 1px solid #CC0000;
+    color: #CC0000;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: normal;
+    margin: 10px 0 0 0;
+}
+
+.message.success{
+    background-color: #65926138;
+    border: 1px solid #228C18;
+    color: #228C18;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: normal;
+    margin: 10px 0 0 0;
+}
+
+.click-here-to-checkout{
+    color: #1C75BF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.click-here-to-checkout:hover{
+    color: #000000;
+}

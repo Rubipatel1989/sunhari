@@ -1,0 +1,1 @@
+<?php echo $details['first_name'].' '.$details['last_name'];?>

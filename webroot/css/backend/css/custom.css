@@ -1,0 +1,247 @@
+body {
+    position: relative;
+}
+.whirl {
+        text-align: center; 
+        z-index: 9999;
+    }
+    .whirl:before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #99999985;
+    opacity: 0.6;
+}
+.spinner-border{
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    width: 3rem; 
+    height: 3rem; 
+    display: inline-block;
+}
+
+
+.red{
+	color: #F00;
+}
+
+.btn_browse{
+	white-space: nowrap;
+	color: #3a3f51;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 37px;
+    padding: 7px 10px 0 10px;
+}
+.btn-browse{
+	height: 37px;
+	border: 1px solid #1C75BF;
+	background-color: #1C75BF;
+	font-weight: bold;
+	padding: 3px 10px 3px 10px;
+	color: #FFF;
+}
+.body-loader{
+	position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+}
+
+.attchment-container{
+	width: 20%;
+    float: left;
+    border: 1px solid #CCC;
+    margin: 20px 20px 0 0;
+    height: 180px;
+    position: relative;
+}
+
+.attchment-container .attchment-inner-container{
+	height: 119px;
+	overflow-y: hidden;
+	padding: 0px;
+}
+
+.attchment-container .attchment-inner-container .remove-attachment-container{
+	position: absolute;
+    z-index: 1;
+    right: 0px;
+    background-color: #C80000;
+    padding: 2px 7px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.attchment-container .attchment-inner-container .remove-attachment-container:hover{
+	background-color: #222
+}
+
+.attchment-container .attchment-inner-container img{
+	width: auto;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+}
+
+.attchment-container .is-primary-container {
+	font-family: 'OpenSansSemibold';
+	font-size: 13px;
+}
+
+.attchment-container .is-primary-container .is-pirmary{
+   position: relative;
+   top: 2px;
+}
+
+.whitetext-1{
+    color: #FFF;
+}
+
+.active-staus{
+    background-color: #249631;
+    padding: 1px 3px;
+    border-radius: 3px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.inactive-staus{
+    background-color: #EC0000;
+    padding: 1px 3px;
+    border-radius: 3px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.action-dropdown{
+    min-width: 138px !important;
+}
+
+.message.error{
+    background-color: #cc000512;
+    border: 1px solid #CC0000;
+    color: #CC0000;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    width: 100%;
+    float: left;
+}
+
+.message.success{
+    background-color: #65926138;
+    border: 1px solid #228C18;
+    color: #228C18;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    width: 100%;
+    float: left;
+}
+
+.panel-toolbar[role="menu"]{
+  display: none;
+}
+
+.hidden{
+    display: none;
+}
+
+.table-cotainer{
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+}
+.permission-list-container {
+    max-height: 150px;
+    height: auto;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+}
+.permission-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.permission-list li{
+    width: 100%;
+    float: left;
+    padding:  0 0 0 20px;
+}
+
+.permission-list li strong{
+    width:  100%;
+    float:  left;
+    padding:  0 0 0 0px;
+    margin: 7px 0 2px 0;
+}
+
+.permission-list li ul{
+    width:  100%;
+    float:  left;
+    list-style: none;
+    padding: 0;
+}
+.permission-list li ul li .checkbox{
+    padding: 0;
+    margin: 0;
+    min-height: auto;
+}
+.permission-list li ul li label{
+    position: relative;
+    top: -2px;
+}
+.plot-file{
+    width: 100%;
+    float: left;
+}
+.download-plot-file{
+    width: 100%;
+    float: left;
+}
+label[for="single-default"] {
+    position: absolute !important;
+    top: 38px;
+    left: 15px !important;
+}
+label[for="date_field"] {
+    position: absolute !important;
+    top: 38px;
+    left: 0 !important;
+}
+
+.w-40{
+    width: 41%;
+    float: left;
+}
+
+.w-60{
+    width: 59%;
+    float: left;
+}
+
+.w-100{
+    width: 100%;
+    float: left;
+}
+
+.profile-pic-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
