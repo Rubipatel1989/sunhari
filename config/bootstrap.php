@@ -447,7 +447,7 @@ TypeFactory::map('time', StringType::class);
 
 
 Configure::write('baseUrl', 'http://localhost/sunhari');
-Configure::write('backendUrl', 'http://localhost/sunhari/mlmcontrol/user/login');
+Configure::write('backendUrl', 'http://localhost/sunhari/panelcontrol');
 Configure::write('siteTitle', 'Sunhari Global Life | ');
 Configure::write('backendTitle', 'Sunhari Global Life Administrator | ');
-Configure::write('backend', 'mlmcontrol'); //panelcontrol or mlmcontrol
+Configure::write('backend', 'panelcontrol'); //panelcontrol or mlmcontrol
