@@ -44,7 +44,7 @@ class CustomerController extends AppController
             print_r($this->request->getData());
             exit;*/
 
-            $username = $usersTable->getUniqueUsername("DPC");
+            $username = $usersTable->getUniqueUsername("SGC");
 
             $password = isset($this->request->getData()["User"]["password"]) ? trim($this->request->getData()["User"]["password"]) : null;
 
@@ -137,7 +137,7 @@ class CustomerController extends AppController
 
                         $templateId = '1707173253556518322';
                         $template = "Welcome To Daulat Pride Parivaar Your's Customer ID = ".$username." Password = ".$password." For Login Please Visit Our Website www.daulatprideindia.net";
-                        $usersTable->sendSMS($contact_number, $templateId, $template);
+                        //$usersTable->sendSMS($contact_number, $templateId, $template);
 
                         $this->Flash->success(
                             __(

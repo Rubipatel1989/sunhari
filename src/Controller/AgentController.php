@@ -42,7 +42,7 @@ class AgentController extends AppController
             print_r($this->request->getData());
             exit;*/
 
-            $username = $usersTable->getUniqueUsername("DPA");
+            $username = $usersTable->getUniqueUsername("SGA");
 
             $password = isset($this->request->getData()["User"]["password"]) ? trim($this->request->getData()["User"]["password"]) : null;
 
@@ -197,7 +197,7 @@ class AgentController extends AppController
 
                             $templateId = '1707173253545533214';
                             $template = "Welcome To Daulat Pride Parivaar Your's BA User ID = ".$username." Password = ".$password." For Login Please Visit Our Website www.daulatprideindia.net";
-                            $usersTable->sendSMS($contact_number, $templateId, $template);
+                            //$usersTable->sendSMS($contact_number, $templateId, $template);
 
                             $this->Flash->success(
                                 __(
