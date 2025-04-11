@@ -149,7 +149,7 @@ if($_SERVER['HTTP_HOST'] == 'localhost'){
               <!--End Logo icon -->
               <!-- Logo text -->
               <span class="logo-text">
-                <span style="color: #fff;text-transform: uppercase;font-weight: 500;font-size: 20px;">Daulat Pride</span>
+                <span style="color: #fff;text-transform: uppercase;font-weight: 500;font-size: 20px;">S G L</span>
               </span>
             </a>
             <!-- -------------------------------------------------------------- -->
